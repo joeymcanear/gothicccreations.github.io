@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.box h2 {
+    color: rgb(150, 32, 116);
+    margin-bottom: 10px;
+}
+
+.community-section {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.community-section a {
+    background: rgb(150, 32, 116);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.community-section a:hover {
+    background-color: white;
+    color: rgb(150, 32, 116);
+}
+
+footer{
+    background-color: rgb(150, 32, 116);
+    padding: 10px;
+}
+
+.hero {
+    background-image: url(images/roses.jpg);
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    background: rgb(150, 32, 116);
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: rgb(150, 32, 116);
+}
